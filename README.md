@@ -55,15 +55,27 @@ This repository contains the **five primary scripts** that drive the core gamepl
 - **Cross-Device Testing:** Conducted extensive testing on multiple devices to ensure consistent performance, eliminate loopholes, and provide a smooth gameplay experience.  
 
 
-## Technology & Tools
+## **Development & Tech Stack**
 
-- **Scripting & Logic:** Implemented in **Luau**, utilizing ModuleScripts, RemoteEvents, and **DataStoreService** for persistent player data.  
-- **Animations & Tools:** Custom character and tool animations implemented via **AnimationController** and **Humanoid**.  
-- **Audio & Effects:** Music, sound effects, and particle effects added for immersive gameplay feedback.  
-- **UI & UX:** Interactive leaderboards, round timers, notifications, and revival prompts built with **ScreenGui** and RemoteEvents.  
-- **Ragdoll System:** Integrated and customized an **open-source ragdoll system** for player interactions like pushing others.  
-- **Modular & Scalable Architecture:** Organized using ModuleScripts for easier maintenance and future updates.  
+- **Game Engine & Scripting**: Built from scratch in **Roblox Studio** using **Luau scripting**, with modular architecture through **ModuleScripts** and **RemoteEvents**.  
 
+- **Data & Persistence**: Player stats and revives stored using **DataStoreService**.  
+
+- **3D Modeling**: Custom assets (rooms, platform, environment) created in **Blender**; central spinning carousel adapted and enhanced from an open-source model with synchronized lighting.  
+
+- **Animations & Tools**: Custom player and tool animations implemented via **AnimationController** and **Humanoid**.  
+
+- **Gameplay Systems**:  
+  - Round flow and random door mechanics (manual & automatic control).  
+  - Leaderboard showing **Top 100 players**, with **3D avatar displays for Top 3**.  
+  - Revive mechanics with persistent revive counts.  
+  - Customized **ragdoll system** (heavily modified from open-source) for push interactions.  
+
+- **UI & UX**: Interactive leaderboards, round timers, notifications, and revival prompts built with **ScreenGui**.  
+
+- **Audio & Effects**: Immersive gameplay with synchronized music, sound effects, and particle systems.  
+
+- All **core systems** were developed, optimized, and tested for smooth multiplayer performance across devices.  
 
 
 
